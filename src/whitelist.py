@@ -15,6 +15,7 @@ whitelist = []
 for line in names_list:
     # Creates and API requests for each name and strips the names and UUIDs
     api_request = requests.get("https://api.mojang.com/users/profiles/minecraft/" + line.rstrip())
+    #print(api_request.text)
     load_json = json.loads(api_request.text)
 
     # Creates a dictionary for each name and UUID
