@@ -1,2 +1,7 @@
 # MCAutoWhitelist
-Put a list of MC Usernames in names.txt and the program will create a whitelist.json for your MC Server
+Takes a list of MC USernames and creates a proper whitelist.json file
+
+# Usage
+To use this program 
+1. Put the whitelist.py file in the same dir as a .txt file named: names.txt
+2. Run the python program
